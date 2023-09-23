@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Pong</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="wrapper">
+    <main>
+      <style>
+        .canvas {
+          border: 5px black solid;
+        }
+        .score{
+          display: flex;
+      justify-content: space-between;
+      width: 1250px;
+        }
+        .score *{
+          font-size: 62px;
+        }
+      </style>
+      <canvas class="canvas" id="canvas" width="1250" height="500"></canvas>
+      
+      <div class="score">
+        <div class="score2">0</div>
+        <div class="score1">0</div>
+      </div>
+
+    </main>
+  </div>
+  <script src='js/app.js'></script>
+</body>
+
+</html>
